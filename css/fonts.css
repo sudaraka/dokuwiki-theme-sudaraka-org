@@ -1,0 +1,76 @@
+/**
+ *  fonts.css: CSS3 font embeding
+ *  Created: 08/07/2012
+ *  
+ *  DokuWiki theme for Sudaraka.Org
+ *  Copyright (C) 2012 Sudaraka Wijesinghe <sudaraka.wijesinghe@gmail.com>
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Affero General Public License as
+ *  published by the Free Software Foundation, either version 3 of the
+ *  License, or (at your option) any later version.
+ *  
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Affero General Public License for more details.
+ *  
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ *
+ *  IMPORTANT:
+ *  Fonts linked to in this script are licensed separately, please read
+ *  fonts/COPYRIGHT for more details.
+ */
+
+@font-face {
+  font-family: 'Droid Sans Mono';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Droid Sans Mono'), local('DroidSansMono'), url('../fonts/DroidSansMono.woff') format('woff'), url('../fonts/DroidSansMono.ttf') format('ttf');
+}
+
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Droid Sans'), local('DroidSans'), url('../fonts/DroidSans.woff') format('woff'), url('../fonts/DroidSans.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url('../fonts/DroidSans-Bold.woff') format('woff'), url('../fonts/DroidSans-Bold.ttf') format('ttf');
+}
+
+
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Droid Serif'), local('DroidSerif'), url('../fonts/DroidSerif.woff') format('woff'), url('../fonts/DroidSerif.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Droid Serif Bold'), local('DroidSerif-Bold'), url('../fonts/DroidSerif-Bold.woff') format('woff'), url('../fonts/DroidSerif-Bold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Droid Serif Italic'), local('DroidSerif-Italic'), url('../fonts/DroidSerif-Italic.woff') format('woff'), url('../fonts/DroidSerif-Italic.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Droid Serif Bold Italic'), local('DroidSerif-BoldItalic'), url('../fonts/DroidSerif-BoldItalic.woff') format('woff'), url('../fonts/DroidSerif-BoldItalic.ttf') format('ttf');
+}

@@ -1,0 +1,72 @@
+/**
+ *  gallery.css: CSS for the gallery page
+ *  
+ *  Created: 08/11/2012
+ *  
+ *  DokuWiki theme for Sudaraka.Org
+ *  Copyright (C) 2012 Sudaraka Wijesinghe <sudaraka.wijesinghe@gmail.com>
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Affero General Public License as
+ *  published by the Free Software Foundation, either version 3 of the
+ *  License, or (at your option) any later version.
+ *  
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Affero General Public License for more details.
+ *  
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
+h1, h2, h3, h4, h5, h6 {
+	color: #ccc;
+	font-family: 'Droid Serif', serif;
+	font-style: italic;
+	font-weight: bold;
+}
+
+h1 {
+	clear: left;
+	float: left;
+}
+
+#div-content {
+	background-color: #000;
+	color: #666;
+}
+
+.level1 ul {
+	clear: right;
+	float: left;
+	list-style-type: none;
+	margin-left: 1em;
+}
+
+.level1 ul li {
+	border-left: 1px solid #333;
+	float: left;
+	padding: 0 1em;
+}
+
+#div-content .level1 ul a {
+	color: #ccc;
+	font: italic 1.5em 'Droid Serif', serif;
+}
+
+#div-content img {
+	clear: none;
+	float: left;
+	height: auto !important;
+	width: 23%;
+	margin: 1%;
+}
+
+#div-content .popup-overlay img {
+	clear: both;
+	float: none;
+	height: auto;
+	width: auto;
+}

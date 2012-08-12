@@ -1,0 +1,54 @@
+/**
+ *  .css: CSS for the portfolio namespace pages
+ *  
+ *  Created: 08/12/2012
+ *  
+ *  DokuWiki theme for Sudaraka.Org
+ *  Copyright (C) 2012 Sudaraka Wijesinghe <sudaraka.wijesinghe@gmail.com>
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Affero General Public License as
+ *  published by the Free Software Foundation, either version 3 of the
+ *  License, or (at your option) any later version.
+ *  
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Affero General Public License for more details.
+ *  
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
+img.media {
+	clear: left;
+	border: 1px solid #aaa;
+	display: block;
+	float: left;
+	margin-bottom: 1em;
+	padding: 1px;
+	max-width: 60%;
+}
+
+.popup-overlay img.media {
+	clear: both;
+	border: 8px solid #000;
+	float: none;
+	padding: 0;
+	max-width: 100%;
+	width: auto;
+}
+
+div.sectionedit1,
+div.sectionedit2 {
+	clear: right;
+	float: right;
+	font-size: .8em;
+	margin-bottom: 1em;
+	width: 36%;
+}
+
+table.inline {
+	width: 100%;
+}

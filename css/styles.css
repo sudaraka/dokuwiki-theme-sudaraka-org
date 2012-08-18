@@ -127,6 +127,12 @@ blockquote:after {
 	margin: 0 0 1em 1em;
 }
 
+.mediacenter {
+	clear: both;
+	display:block;
+	margin: 0 auto;
+	max-width: 100%;
+}
 
 #div-content {
 	background-color: #fff;
@@ -374,7 +380,7 @@ footer.wrapper {
 
 #div-sidebar .crl {
 	font: italic normal .7em/1.5em 'DejaVu Serif', 'Droid Serif', serif;
-	margin: 10em 0 1em;
+	margin: 5em 0 1em;
 }
 
 

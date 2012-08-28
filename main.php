@@ -23,6 +23,8 @@
 
 if (!defined('DOKU_INC')) die();
 
+putenv('TZ=Asia/Colombo');
+date_default_timezone_set('Asia/Colombo');
 
 $uri = (1 == $conf['useslash'])?str_replace(':', '/', $INFO['id']):$INFO['id'];
 
@@ -94,10 +96,7 @@ if(is_file($meta_file)) {
 			<footer class="wrapper">
 				<?php if(-1 < strpos($INFO['id'], ':') && is_file($INFO['filepath'])): ?>
 				<p>
-					Article created on <?php echo date('F jS, Y', filectime($INFO['filepath'])); ?>
-					<?php if(filectime($INFO['filepath']) != filemtime($INFO['filepath'])): ?>
-					(last modified on <?php echo date('F jS, Y h:ia', filemtime($INFO['filepath'])); ?>)
-					<?php endif; ?>
+					Article last modified on <?php echo date('F jS, Y h:ia T', filemtime($INFO['filepath'])); ?>
 					<br />
 					Author: <cite><a href="/about-sudaraka-wijesinghe/" rel="author">Sudaraka Wijesinghe</a>.</cite>
 				</p>

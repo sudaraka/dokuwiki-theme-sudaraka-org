@@ -51,6 +51,12 @@ p, h1, h2, h3, h4, h5, h6, pre.code {
 	margin: 0 0 1em;
 }
 
+h2 {
+	border-top: 1px solid #ccc;
+	margin-top: 1em;
+	padding-top: .5em;
+}
+
 table {
 	background-color: #eee;
 	border: 1px solid #888;

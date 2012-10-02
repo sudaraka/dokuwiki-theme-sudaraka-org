@@ -176,7 +176,6 @@ if(is_file($meta_file)) {
 
 		<div class="hidden">
 			<?php /* provide DokuWiki housekeeping, required in all templates */ tpl_indexerWebBug()?>
-			<?php if('sudaraka.org' == $_SERVER['HTTP_HOST']):?> <img src="http<?php echo (!empty($_SERVER['HTTPS']))?'s':''; ?>://nojsstats.appspot.com/UA-33560559-1/sudaraka.org<?php if(isset($_SERVER['HTTP_REFERER'])) { echo '?r=' . urlencode($_SERVER['HTTP_REFERER']); } ?>" alt="" width="1" height="1" /><?php endif; ?>
 		</div>
 
 	</body>

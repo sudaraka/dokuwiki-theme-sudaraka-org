@@ -312,47 +312,52 @@ footer.wrapper {
 	color: #fff;
 }
 
-#div-sidebar div.toc {
+#div-sidebar div#dw__toc {
 	margin: 2em 0 3em;
 }
 
-#div-sidebar .toc .tocheader {
+#div-sidebar #dw__toc .tocheader {
 	color: #ccc;
 	font: bold 1em/1em 'Droid Sans', sans-serif;
 	margin: .5em 0;
 }
 
-#div-sidebar .toc a {
+#div-sidebar #dw__toc h3 {
+	display: none;
+}
+
+
+#div-sidebar #dw__toc a {
 	color: #aaa;
 	font-family: 'Droid Sans', sans-serif;
 }
 
-#div-sidebar .toc ul {
+#div-sidebar #dw__toc ul {
 	clear: both;
 	list-style-type: none;
 }
 
-#div-sidebar .toc ul ul {
+#div-sidebar #dw__toc ul ul {
 	font-size: .9em;
 	margin-left: .5em;
 }
 
-#div-sidebar .toc ul li {
+#div-sidebar #dw__toc ul li {
 	padding: .25em 0;
 }
 
-#div-sidebar .toc ul li + li {
+#div-sidebar #dw__toc ul li + li {
 	border-top: 1px dotted #333;
 }
 
-#div-sidebar .toc ul ul li:before {
+#div-sidebar #dw__toc ul ul li:before {
 	color: #888;
 	content: '→';
 	float: left;
 	margin-right: .25em;
 }
 
-#div-sidebar .toc ul ul li {
+#div-sidebar #dw__toc ul ul li {
 	border-top: none;
 	line-height: 1.25em;
 	padding: 0;

@@ -102,6 +102,10 @@ blockquote:after {
 	font: normal 4em/.1em 'Droid Serif', 'DejaVu Serif', serif;
 }
 
+ol {
+    padding-left: 2em;
+}
+
 .area {
 	clear: none;
 	float: left;
@@ -244,12 +248,12 @@ footer.wrapper {
 
 #div-sidebar .social li {
 	float: left;
-	width: 14.28%;
+	width: 12.5%;
 	text-align: center;
 }
 
 #div-sidebar .social .icon {
-	background: transparent url(../images/social-icons-gray.png) no-repeat 0 0;
+	background: transparent url(../images/social-icons.png) no-repeat 0 0;
 	height: 24px;
 	width: 24px;
 	margin: 0 auto;
@@ -267,6 +271,14 @@ footer.wrapper {
 
 #div-sidebar .social .icon-identica {
 	background-position: -88px 0;
+}
+
+#div-sidebar .social .icon-github {
+	background-position: -480px 0;
+}
+
+#div-sidebar .social .icon-coursera {
+	background-position: -424px 0;
 }
 
 #div-sidebar .social .icon-git {

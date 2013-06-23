@@ -140,13 +140,13 @@ if(is_file($meta_file)) {
 					<nav class="links"><?php echo p_wiki_xhtml('layouts:bottom-links'); ?></nav>
 					<? endif; ?>
 
-					<cite>Sudaraka.Org &mdash; <a href="/copyright/#content">Copyright</a> 2012, 2013 <a rel="me" href="/about-sudaraka-wijesinghe/">Sudaraka Wijesinghe</a>.</cite>
+					<cite>Sudaraka.Org &mdash; <a href="/copyright/#article-page-content-on-sudarakaorg">Copyright</a> 2012, 2013 <a rel="me" href="/about-sudaraka-wijesinghe/">Sudaraka Wijesinghe</a>.</cite>
 					<p>
 						<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US" style="border: none;"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Sudaraka.Org</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://sudaraka.org/about-sudaraka-wijesinghe/" property="cc:attributionName" rel="cc:attributionURL">Sudaraka Wijesinghe</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://sudaraka.org/" rel="dct:source">http://sudaraka.org/</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="http://sudaraka.org/terms-and-conditions/" rel="cc:morePermissions">http://sudaraka.org/terms-and-conditions/</a>.
 					</p>
 					<br />
 
-					<cite>DokuWiki Theme &mdash; <a href="/copyright/#theme">Copyright</a> 2012, 2013 <a rel="me" href="/about-sudaraka-wijesinghe/">Sudaraka Wijesinghe</a>.</cite>
+					<cite>DokuWiki Theme &mdash; <a href="/copyright/#dokuwiki-theme-for-sudarakaorg">Copyright</a> 2012, 2013 <a rel="me" href="/about-sudaraka-wijesinghe/">Sudaraka Wijesinghe</a>.</cite>
 					<p>
 						This program is free software: you can redistribute it and/or modify
 						it under the terms of the GNU Affero General Public License as published by

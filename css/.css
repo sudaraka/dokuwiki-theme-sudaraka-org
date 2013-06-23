@@ -1,8 +1,8 @@
 /**
  *  .css: CSS for the homepage
- *  
+ *
  *  Created: 08/11/2012
- *  
+ *
  *  DokuWiki theme for Sudaraka.Org
  *  Copyright (C) 2012 Sudaraka Wijesinghe <sudaraka.wijesinghe@gmail.com>
  *
@@ -10,12 +10,12 @@
  *  it under the terms of the GNU Affero General Public License as
  *  published by the Free Software Foundation, either version 3 of the
  *  License, or (at your option) any later version.
- *  
+ *
  *  This program is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU Affero General Public License for more details.
- *  
+ *
  *  You should have received a copy of the GNU Affero General Public License
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
@@ -43,40 +43,29 @@ h1 {
 	line-height: .7em;
 }
 
-@media screen and (max-width: 700px) {
-	h1 {
-		font-size: 1.5em;
-	}
-}
-@media screen and (max-width: 420px) {
-	h1 {
-		float: left;
-		font-size: 1.1em;
-	}
-
-	.message,
-	.welcome {
-		text-align: left;
-		width: 100%;
-	}
-}
-
 .message {
-	clear: both;
-	float: right;
+	clear: left;
+	float: left;
+    font-size: .9em;
+    margin: 0 1% 1% 25%;
 	min-height: 10em;
-	width: 77%;
+    width: 44%;
 }
 
 .message2 {
-	clear: both;
+	clear: right;
+    color: #660000;
+    float: right;
+    font-size: .8em;
+    margin: 0 0 1% 1%;
+    width: 26%
 }
 
 .column {
-	float: left;
+	float: right;
 	clear: none;
-	margin:1em .5em;
-	width: 30%;
+	margin: 1em 2%;
+	width: 28%;
 }
 
 
@@ -93,4 +82,100 @@ h1 {
 .column li {
 	font-size: .9em;
 	line-height: 2em;
+}
+
+.column-1 {
+    color: #660000;
+    width: 32%;
+}
+
+.column-1 ul {
+    float: right;
+    font-size: .9em;
+	list-style-type: none;
+}
+
+.column-1 li {
+    float: left;
+    width: 33%;
+}
+
+@media screen and (max-width: 1366px) {
+    .message,
+    .message2 {
+        clear: both;
+        float: right;
+        margin: 0;
+        width: 66%;
+    }
+
+    .column-1 li {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .message2 {
+        clear: both;
+        float: none;
+        font-size: .9em;
+        margin: 0;
+        width: 100%;
+    }
+
+    .column {
+        margin: 1em 2%;
+        width: 46%;
+    }
+
+    .column-1 {
+        clear: both;
+        float: none;
+        margin: 1% 0;
+        width: 100%;
+    }
+
+    .column-1 ul {
+        font-size: 1em;
+    }
+
+    .column-1 li {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+	h1 {
+		font-size: 1.5em;
+	}
+
+    .message {
+        clear: both;
+        float: none;
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+	h1 {
+		float: left;
+		font-size: 1.1em;
+	}
+
+	.welcome {
+		text-align: left;
+		width: 100%;
+	}
+
+    .column {
+        clear: both;
+        float: none;
+        margin: 1% 0;
+        width: 100%;
+    }
+
+    .column-1 li {
+        width: 50%;
+    }
 }

@@ -35,3 +35,13 @@
     margin: 1%;
     padding: 1px;
 }
+
+.coursera-certs div {
+    float: left;
+    width: 410px;
+    text-align: center;
+}
+
+.coursera-certs div:nth-child(even) {
+    margin-left: 20px;
+}

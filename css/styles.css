@@ -248,7 +248,7 @@ footer.wrapper {
 
 #div-sidebar .social li {
 	float: left;
-	width: 16.67%;
+	width: 14.28%;
 	text-align: center;
 }
 
@@ -269,7 +269,7 @@ footer.wrapper {
 	filter: alpha(opacity=100)
 }
 
-#div-sidebar .social .icon-identica {
+#div-sidebar .social .icon-bitbucket {
 	background-position: -88px 0;
 }
 

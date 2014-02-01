@@ -34,6 +34,12 @@ $last_modified = substr(gmdate('r', filemtime($css_file)), 0, -5) . 'GMT';
 $css = preg_replace('/\s+/', ' ', $css);
 $css = preg_replace('/\/\*.*?\*\//', ' ', $css);
 
+$css = str_replace(array("\r\n", "\r", "\n", "\t", '  ', '    ', '    '), '', $css);
+$css = str_replace('{ ', '{', $css);
+$css = str_replace(' }', '}', $css);
+$css = str_replace('; ', ';', $css);
+$css = str_replace(': ', ':', $css);
+
 header('Content-Type: text/css');
 header('Content-Disposition: filename="' . basename($css_file) . '"');
 header('Last-Modified: ' . $last_modified);

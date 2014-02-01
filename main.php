@@ -69,11 +69,8 @@ if(is_file($meta_file)) {
 		<link rel="shortcut icon" type="image/png" href="<?php echo DOKU_TPL; ?>images/lamp.png" />
 		<link rel="canonical" href="<?php echo DOKU_URL . $uri; ?>" />
 
-		<link rel="stylesheet" type="text/css" media="print" href="<?php echo DOKU_TPL; ?>css.php/print.css" />
 		<link rel="stylesheet" type="text/css" media="screen" href="<?php echo DOKU_TPL; ?>css.php/fonts.css" />
 		<link rel="stylesheet" type="text/css" media="all" href="<?php echo DOKU_TPL; ?>css.php/styles.css" />
-		<link rel="stylesheet" type="text/css" media="screen and (min-width: 550px) and (max-width: 1267px)" href="<?php echo DOKU_TPL; ?>css.php/top-bar.css" />
-		<link rel="stylesheet" type="text/css" media="screen and (max-width: 550px)" href="<?php echo DOKU_TPL; ?>css.php/bottom-bar.css" />
 		<?php if(!empty($ns_css)): ?><link rel="stylesheet" type="text/css" media="all" href="<?php echo DOKU_TPL; ?>css.php/<?php echo $ns_css; ?>" /><?php endif; ?>
 		<?php if(!empty($page_css)): ?><link rel="stylesheet" type="text/css" media="all" href="<?php echo DOKU_TPL; ?>css.php/<?php echo $page_css; ?>" /><?php endif; ?>
 	</head>
